@@ -1,0 +1,1 @@
+export const UNKNOWN_WIDGET = "UNKNOWN_WIDGET";
