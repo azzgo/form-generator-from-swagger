@@ -6,7 +6,7 @@ import Field from "../form/field.vue";
 
 /**
  * @param schema: 需要解析的 Schema, 需要符合 JSON Schema 规范
- * @param name: 可选，当 Schema 是简单 Scheme 时（type 非 object & arrray），name 字段会促使生成 Field 配置
+ * @param name: 可选，当 Schema 是简单 Scheme 时（type 非 object & array），name 字段会促使生成 Field 配置
  **/
 export function parseSchema<T extends ISchema = ISchema>(
   schema: T,
