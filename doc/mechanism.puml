@@ -1,0 +1,6 @@
+@startuml swagger 2 form: gennerator
+
+Swagger.json -> "JSON Schema": Get Swagger JSON
+"JSON Schema" -> Field: Parser
+
+@enduml
